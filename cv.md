@@ -38,7 +38,8 @@ try:
     button = browser.find_element(By.CSS_SELECTOR, "[id='book']")
     browser.execute_script("return arguments[0].scrollIntoView(true);", button)
     button.click()
-    x_element = browser.find_element(By.CSS_SELECTOR, "span[id='input_value']")    x = x_element.text
+    x_element = browser.find_element(By.CSS_SELECTOR, "span[id='input_value']")    
+    x = x_element.text
     y = calc(x)
     value = browser.find_element(By.CSS_SELECTOR, "[id='answer']").send_keys(y)
     submit = browser.find_element(By.CSS_SELECTOR, "[type='submit']")
@@ -47,5 +48,14 @@ try:
 finally:    time.sleep(10)
     browser.quit()
 ```
+## Education:
+* __Belarusian National Technical University__ The faculty of energy. Not completed.
+* __Stormnet__ Softwear testing. Completed: may 2022.
+* __EPAM Learning__ IT Fundamentals to beginers.
+* __Codeacademy__ Python3, SQL.
+* __Stepik__ Test automation with Selenium and Python.
+* __Hexlet__ Python basics.
 
+
+## English level: B1 (Intermediate). Referring to the results of the English test from EPAM University.
 
