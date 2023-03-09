@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Souchkova Angelina</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="souchkova-angelina">Souchkova Angelina</h1>
+<h3 id="qa-engineer">QA Engineer</h3>
+<p>Linkedin: <a href="https://www.linkedin.com/in/angelina-souchkova/">Angelina Souchkova</a><br>
+Phone number: +48572281408<br>
+Gmail: <a href="mailto:Angelina.Souchkova@gmail.com">Angelina.Souchkova@gmail.com</a></p>
+<h2 id="some-information-about-me">Some information about me:</h2>
+<p>I studied at BNTU for 3 years, but dropped out due to a change of residence. I’ve finished a course of software testing. I very much liked to be engaged in testing and I plan to devote it the closest part of my life, to be improved, progress and develop in
+the sphere of information technologies. I actively study programming languages, such as JavaScript, Python, SQL. I want to develop in the field of IT and switch to automated testing.</p>
+<h2 id="test-related-skills">Test-related skills:</h2>
+<ul>
+<li>Test cases execution;</li>
+<li>Test cases creation;</li>
+<li>Test report creation;</li>
+<li>Tracking bugs into JIRA and Trello;</li>
+<li>Working with DataBase using SQL;</li>
+<li>Bug reporting and bug verification;</li>
+<li>Result analyzing.</li>
+</ul>
+<h2 id="programming-related-skills">Programming related skills:</h2>
+<ul>
+<li>Basics of Python</li>
+<li>Basics of JavaScript</li>
+<li>Git/GitHub</li>
+</ul>
+<h3 id="as-i-said-before-i-want-to-move-to-automated-testing">As I said before, I want to move to automated testing.</h3>
+<h3 id="here-is-an-example-of-an-automated-test-using-selenium-and-python">Here is an example of an automated test, using Selenium and Python:</h3>
+<pre><code>import math from selenium import webdriver
+from selenium.webdriver.common.by import Byfrom selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as ECimport time
+def calc(x):
+  return str(math.log(abs(12*math.sin(int(x)))))
+try:    
+    link = &quot;http://suninjuly.github.io/explicit_wait2.html&quot;
+    browser = webdriver.Chrome()    browser.get(link)
+    price = WebDriverWait(browser, 12).until(
+        EC.text_to_be_present_in_element((By.ID, &quot;price&quot;), &quot;$100&quot;)    )
+    button = browser.find_element(By.CSS_SELECTOR, &quot;[id='book']&quot;)
+    browser.execute_script(&quot;return arguments[0].scrollIntoView(true);&quot;, button)
+    button.click()
+    x_element = browser.find_element(By.CSS_SELECTOR, &quot;span[id='input_value']&quot;)    
+    x = x_element.text
+    y = calc(x)
+    value = browser.find_element(By.CSS_SELECTOR, &quot;[id='answer']&quot;).send_keys(y)
+    submit = browser.find_element(By.CSS_SELECTOR, &quot;[type='submit']&quot;)
+    browser.execute_script(&quot;return arguments[0].scrollIntoView(true);&quot;, submit)
+    submit.click()
+finally:    time.sleep(10)
+    browser.quit()
+</code></pre>
+<h2 id="education">Education:</h2>
+<ul>
+<li><strong>Belarusian National Technical University</strong> The faculty of energy. Not completed.</li>
+<li><strong>Stormnet</strong> Softwear testing. Completed: may 2022.</li>
+<li><strong>EPAM Learning</strong> IT Fundamentals to beginers.</li>
+<li><strong>Codeacademy</strong> Python3, SQL.</li>
+<li><strong>Stepik</strong> Test automation with Selenium and Python.</li>
+<li><strong>Hexlet</strong> Python basics.</li>
+</ul>
+<h2 id="english-level-b1-intermediate-referring-to-the-results-of-the-english-test-from-epam-university">English level: B1 (Intermediate). Referring to the results of the English test from EPAM University.</h2>
+
+        <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+        
+    </body>
+    </html>
